@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&amp;display=swap" rel="stylesheet">  
+  <style>
+    body {
+      margin: 0; position: relative;
+    }
+    img{ 
+      width: 200px; position: absolute; top:550px;
+    }
+    .scene {
+      height: 100vh;
+      overflow: hidden;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: 'Source Sans Pro', serif;
+      font-weight: 200;
+    }
+    .scene.one{
+      background-image: url(dodo.png);color:white;
+    }
+    .scene.two{
+    	background-color: #000;color:white;
+    
+    }
+    #s2 {width: 30%; position: absolute; margin-top:0px; margin-left: 0px;}
+    .scene.two-1{
+      background-image: url(go.jpg);color:white;background-size: 500px; 
+    }
+    .scene.two-2{
+      background-image: url(gogo.jpg);color:white;background-size: 500px; 
+    }
+    .scene.two-3{
+      background-image: url(gogogo.jpg);color:white;background-size: 500px; 
+    }
+    .scene.two-4{
+      background-image: url(gogogogo.jpg);color:white;
+    }
+    .scene.two-5{
+      background-color: #000;
+      /*background-image: url(img/heic1501a.jpg);*/
+    }             
+    .scene.three{
+      background-color: #000; 
+    }
+    .scene.four{
+      background-image: url();
+    }
+
+    .scene header{
+      color:white;
+      max-width: 55%;
+      position: relative;
+      left:50%;
+      top:50%;
+      transform:translateX(-50%) translateY(-50%);
+      font-size:1.5rem;
+      text-align: center;
+      line-height: 2em;
+    }
+    .scene header h1{
+      color:white;
+      font-size:2rem;
+      margin-bottom: 1rem;
+      font-weight: 300;
+    }
+    .scene header h1:after{
+      color:white;
+      content:'';
+      border-bottom:1px solid white;
+      width:8rem;
+      display: block;
+      margin:0 auto;
+      margin-top:1rem;
+    }
+
+    .circle{
+        width: 1px; height: 15px; border-radius: 100%; background: #fff; position: absolute; animation: rrr 10s infinite ease-in-out;}
+
+
+    #txt2 { text-align: center; margin-top: 300px; }
+    #txt3 { text-align: center; margin-top: 300px; }
+    #txt4 { text-align: center; margin-top: 300px; }
+    #txt5 { text-align: center; margin-top: 300px; }
+    #txt6 { text-align: center; margin-top: 0px; }
+
+    @keyframes rrr{
+      from{ top: 100px; }
+      to{ bottom: 0px; opacity: 1;}
+    }
+
+    @keyframes ro{  to{transform: rotate(360deg);}  }
+    @keyframes le{  from{left:0px;} to{left: 600px;} }
+    @keyframes ri{  from{right:0px;} to{right: 600px;} }
+    @keyframes tt{  from{top:100px; opacity: 0} to{top:50px; opacity: 1} }
+
+    p { font-size: 14px;
+    	line-height: 20px;
+      font-family: 'Noto Sans KR', serif;
+      text-align: justify;
+      text-align-last: center;color:white;
+    }
+
+    h1 {  font-family: 'Noto Sans KR', serif;color:white;
+    }
+
+    section {position: relative;}
+    .scenefour #at {width: 1000px; position: absolute;}
+
+  footer { width: 100%; height: 200px; background-color: black; }
+
+  footer p { text-align: center; padding-top: 100px; color:white; margin-top: 0px;}
+
+  </style>
+</head>
+
+<body>
+  <section class="scene one">
+    <header id="h1">
+      <h1>꼭두에 관하여</h1>
+      <p>꼭두에 대해서는 외국어 유래설, 토착어설 등 여러 가지 말이 있으나, 모두 분명치 않다.
+      꼭두새벽, 꼭두배기, 꼭두머리 등과 같이 꼭두라는 말은 제일 빠른 시간이나 제일 윗부분을 일컫는 것으로서, 이쪽과 저쪽 사이에 있는 경계의 영역을 가리켰다.</p>
+    </header>
+  </section>
+
+  <section class="scene two">
+    <header>
+      <h1>꼭두의 3가지 종류</h1>안내자 꼭두 | 호위자 꼭두 | 놀음꾼 꼭두
+    </header>
+  </section>
+
+  <section class="scene two-1">
+    <img  id="t2" style="animation: 1.5s ease 0s 1 normal forwards running ri;">
+    <header id="txt2" style="animation: 1s ease 0s 1 normal forwards running tt;">
+      <h1>안내자 꼭두</h1><p>망자에게 길을 안내해 주는 것으로, 움직임과 옮겨감의 주제가 두드러진다. 일자 용 위의 중심에 모셔져 있는 나무 꼭두의 경우에 이런 기능이 현저하다. 이 꼭두는 대부분 역동적인 분위기를 띠며, 용과 봉황, 혹은 융합적인 동물 등 비인간적 혹은 초인간적 존재와 더불어 나타난다.</p>
+    </header>
+  </section>
+
+  <section class="scene two-2">
+    <img  id="t3" style="animation: 1.5s ease 0s 1 normal forwards running le;">
+    <header id="txt3" style="animation: 1s ease 0s 1 normal forwards running tt;">
+      <h1>호위자 꼭두</h1><p>망자가 나쁜 영향력의 침입을 받지 않도록 지켜주는 것으로, 무기를 들고 있거나 위협적인 표정을 하고 있어서 쉽게 알아볼 수 있다.</p>
+    </header>
+  </section>
+
+  <section class="scene two-3">
+    <img  id="t4" style="animation: 1.5s ease 0s 1 normal forwards running ri;">
+    <header id="txt4" style="animation: 1s ease 0s 1 normal forwards running tt;">
+      <h1>놀음꾼 꼭두</h1><p>이동은 불안을 함축하고 있으며, 이별은 슬픔의 정조를 지니고 있다. 이와 같은 불안과 슬픔을 극복하기 위해 분위기 전환의 기능을 담당하는 것이 악기를 연주하고 춤을 추거나, 거꾸로 서서 곤두 도는 연희를 하는 모습으로지 나타나는 재인 꼭두이다.</p>
+    </header>
+  </section>
+
+  <section class="scene two-4">
+    <img  id="t5" style="animation: 1.5s ease 0s 1 normal forwards running le;">
+    <header id="txt5" style="animation: 1s ease 0s 1 normal forwards running tt;">
+      <h1>꼭두의 인식</h1><p>2012년 런던 올림픽 이후 전세계에서 꼭두에 대한 관심이 쏟아져나왔고, 국내에서도 연극과 영화제에서 많은 소재로 사용되어지고 있다. 망자의 길을 함께하며 전통상여와 한옥에서 우리와 항상 함께했던 꼭두, 이제는 알고 더 많은 관심을 가져보도록 하자.</p>
+    </header>
+  </section>        
+
+ 
+
+
+
+
+<div class="circle" id="rrr"></div>
+
+<div id="monitor" style="color: black">3679</div>
+
+<script type="text/javascript">
+
+    for(var i=0; i<50; i++){
+      var b = rrr.cloneNode(true);
+      b.id = i;
+      b.style.left = Math.random()*1450+"px";
+       // b.style.height = Math.random()*30+"px";
+      b.style.animationDuration = Math.random()*20 +"s";
+      // b.style.animationDelay =+"s";
+      // b.style.background = randomColor();
+      document.body.appendChild(b);
+    }
+
+  function randomBH(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 5)) + min;
+  }
+
+  <script type="text/javascript">
+  window.onscroll = function(){
+    var t = document.documentElement.scrollTop + document.body.scrollTop;
+    monitor.innerHTML = t;
+
+    if(t > 1000){
+      t2.style.animation = "ri 1.5s forwards";
+      txt2.style.animation = "tt 1s forwards";
+    }else{
+      t2.style.animation = "";      
+      txt2.style.animation = "";
+    }    
+
+    if(t > 1800){
+      t3.style.animation = "le 1.5s forwards";
+      txt3.style.animation = "tt 1s forwards";
+    }else{
+      t3.style.animation = "";
+      txt3.style.animation = "";
+    }
+
+    if(t > 2600){
+      t4.style.animation = "ri 1.5s forwards"
+      txt4.style.animation = "tt 1s forwards";
+    }else{
+      t4.style.animation = "";
+      txt4.style.animation = "";
+    }
+
+    if(t > 3400){
+      t5.style.animation = "le 1.5s forwards";
+      txt5.style.animation = "tt 1s forwards";
+    }else{
+      t5.style.animation = "";
+      txt5.style.animation = "";
+    }
+
+    if(t > 5000){
+      t6.style.animation = "ro 2s forwards";
+      txt6.style.animation = "tt 1s forwards";
+    }else{
+      t6.style.animation = "";
+      txt6.style.animation = "";
+    }              
+//    t2.style.animation = "ro 1s infinite";
+    
+//    if(t > 200){txt2.style.left = "300px";}
+  }
+  </script>
+
+  <footer>
+    <p>2019©일러스트/그림-장준혁. all rights reserved.</p>
+  </footer>   
+
+
+</body></html>
